@@ -13,6 +13,7 @@
 
 .nav__black {
     background-color: #111;
+    height: 60px;
 
 }
 
@@ -30,3 +31,18 @@
     object-fit: contain;
 }
 
+.out {
+    position: fixed;
+    height: 30px;
+    right: 80px;
+    width: 70px;
+    object-fit: contain;
+    background-color: red;
+}
+.in {
+    position: fixed;
+    right: 160px;
+    height: 30px;
+    width: 60px;
+    object-fit: contain;
+}
